@@ -1,0 +1,70 @@
+// import React, { useState } from 'react';
+// import { View, Text, StyleSheet } from 'react-native'
+// import { Button } from 'react-native-paper';
+// import Loading from './Components/Loading';
+// import TextInputExample from './Components/TextForm';
+// import SimpleList from './Components/SimpleList';
+// import Icons from 'react-native-vector-icons/FontAwesome';
+// import Icons2 from 'react-native-vector-icons/Entypo';
+
+
+// function App() {
+    
+//     const [loading,setLoading] = useState(false);
+//     const [form,setForm] = useState(false);
+//     const [list,setList] = useState(false);
+
+//     // function showComponents(){
+//     //     if(title=="loading"){
+//     //         setLoading(true);
+//     //     }
+//     //     else if(title=="form"){
+//     //         setForm(true);
+//     //     }
+//     //     else if(title=="list"){
+//     //         setForm(true);
+//     //     }
+//     //     else{
+//     //         console.log("null...")
+//     //         setLoading(true);
+//     //         setForm(true);
+//     //     }
+//     // }
+
+//     return (
+//         <View>
+//             <View>
+//                 <Icons name="user"  size={50} />
+//                 <Text>Component Text wokring </Text>
+//             </View>
+//             <View>
+//                 <Button style={[styles.buttons, { backgroundColor: 'red' }]} textColor='white' labelStyle={{ fontSize: 20 }} onPress={()=> setLoading(true)} >Loading</Button>
+//                 <Button style={[styles.buttons, { backgroundColor: 'purple' }]} textColor='white' labelStyle={{ fontSize: 20 }} onPress={()=> setList(true)}  >List</Button>
+//                 <Button style={[styles.buttons, { backgroundColor: 'blue' }]} textColor='white' labelStyle={{ fontSize: 20 }} onPress={()=> setForm(true)}  >Form</Button>
+//                 <Button style={[styles.buttons, { backgroundColor: 'green' }]} textColor='white' labelStyle={{ fontSize: 20 }} >Press Me</Button>
+//             </View>
+//             <View> 
+//                 {loading ? <Loading /> :"" }
+//                 {form ? <TextInputExample /> :"" }
+//                 {list ? <SimpleList /> :"" }
+//             </View> 
+//         </View>
+//     )
+// }
+
+// const styles = StyleSheet.create({
+//     buttons: {
+//         width: '100%',
+//         borderRadius: 5,
+//         marginBottom: 10
+//     },
+// })
+
+// export default App;
+
+
+
+
+
+
+
